@@ -1,7 +1,7 @@
 function doLogin(event)  {
    var username= document.getElementById("username").value;
    var password= document.getElementById("password").value;
-   if( username == " " || password == " ") {
+   if( username == "" || password == "") {
      alert("Username e password sono obbligatori");
    }
 }
