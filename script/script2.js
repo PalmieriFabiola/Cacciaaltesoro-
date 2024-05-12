@@ -38,7 +38,7 @@ fetch('https://www.venditeOnline.org/login.php/loginIpad',{ //nome indirizzo ser
    }
 ]
 
-{ "sistema_operativo": "Apple"   // oggetto che proprietà di tipo lista di oggetti
+{ "sistema_operativo": "Apple"   // oggetto che ha una proprietà di tipo lista di oggetti
    "dispositivi" : [ 
       { "nome": "Iphone 14", "anuscita": 2022 }
       { "nome": "Iphone 13", "anuscita": 2021 }
