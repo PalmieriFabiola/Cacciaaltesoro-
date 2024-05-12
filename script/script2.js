@@ -38,8 +38,15 @@ fetch('https://www.venditeOnline.org/login.php/loginIpad',{ //nome indirizzo ser
    }
 ]
 
-
-
+{ "sistema_operativo": "Apple"   // oggetto che proprietà di tipo lista di oggetti
+   "dispositivi" : [ 
+      { "nome": "Iphone 14", "anuscita": 2022 }
+      { "nome": "Iphone 13", "anuscita": 2021 }
+      { "nome": "Iphone 12", "anuscita": 2020 }
+      { "nome": "Iphone 11", "anuscita": 2019 }
+      { "nome": "Iphone X", "anuscita": 2017 }
+    ]
+      }
 )
 })
 .then(response=>response.json())
