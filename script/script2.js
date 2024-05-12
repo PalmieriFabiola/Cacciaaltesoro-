@@ -1,5 +1,5 @@
 else {
-fetch('https://www.venditeOnline.org/login.php/loginIpad',{ //nome indirizzo server che trattiene i dati riguardo i dispositivi
+fetch('https://www.smartphonedati.org/login.php/loginIpad',{ //nome indirizzo server che trattiene i dati riguardo i dispositivi
    method:'POST',
    headers:{
       'Content-Type'= 'application/json',
