@@ -17,8 +17,12 @@ fetch('https://www.cacciaapi.altervista.org/login.php/loginIpad',{
 })
 })
 .then(response=>response.json())
-.then(data=>console.log(data))
+.then(data=> {
+   console.log(data);
+   window.location.href = "game.html" ;
+})
 .catch((error) => {
    console.error('Errore:', error),
-})
 }
+)
+
